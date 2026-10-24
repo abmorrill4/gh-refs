@@ -1,0 +1,19 @@
+{
+  "name": "gh-refs",
+  "version": "1.0.0",
+  "description": "Hover a GitHub issue or PR mentioned in a Claude reply to see its title, state, milestone, labels, parent theme and a short summary",
+  "author": { "name": "abmorrill4", "url": "https://github.com/abmorrill4" },
+  "homepage": "https://github.com/abmorrill4/gh-refs",
+  "repository": "https://github.com/abmorrill4/gh-refs",
+  "license": "MIT",
+  "keywords": ["github", "issues", "pull-requests", "hover", "mod"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "defaultRepo": {
+      "type": "string",
+      "title": "Default repository",
+      "description": "owner/repo that a bare #123 points to when a reply names no repository. Leave empty to use the GitHub repository of the folder Claude runs in.",
+      "default": ""
+    }
+  }
+}

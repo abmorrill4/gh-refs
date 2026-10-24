@@ -1,0 +1,5 @@
+{
+  "name": "gh-refs",
+  "owner": { "name": "abmorrill4" },
+  "plugins": [{ "name": "gh-refs", "source": "./", "description": "Hover cards for GitHub issues and PRs mentioned in Claude's replies" }]
+}
